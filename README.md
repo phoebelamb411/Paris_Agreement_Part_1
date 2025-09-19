@@ -42,33 +42,34 @@ Part 2 (coming later) will expand into **climate finance vs emissions** to ask: 
 ## 🗂️ Structure
 
 paris-agreement-part1/
-├─ raw_data/                 # raw downloads (kept as-is)
-│  ├─ CW_HistoricalEmissions_ClimateWatch.csv
-│  ├─ CW_HistoricalEmissions_UNFCCC.csv      (optional variants)
-│  ├─ CW_HistoricalEmissions_PRIMAP.csv      (optional variants)
-│  ├─ metadata.csv
-│  └─ targets.csv            # tiny file I fill with 2030 targets for a few countries
+├─ raw_data/ # raw downloads (kept as-is)
+│ ├─ CW_HistoricalEmissions_ClimateWatch.csv
+│ ├─ CW_HistoricalEmissions_UNFCCC.csv (optional variants)
+│ ├─ CW_HistoricalEmissions_PRIMAP.csv (optional variants)
+│ ├─ metadata.csv
+│ └─ targets.csv # tiny file I fill with 2030 targets for a few countries
 ├─ output/
-│  ├─ figures/
-│  │  ├─ ontrack_bar.png
-│  │  └─ country_lines/
-│  │     ├─ USA_line.png
-│  │     └─ ...
-│  └─ summary_ontrack.csv    # table with metrics per country
+│ ├─ figures/
+│ │ ├─ ontrack_bar.png
+│ │ └─ country_lines/
+│ │ ├─ USA_line.png
+│ │ └─ ...
+│ └─ summary_ontrack.csv # table with metrics per country
 ├─ scripts/
-│  └─ make_charts.R          # run me
+│ └─ make_charts.R # run me
 └─ Paris_Agreement_Part_1.Rproj
 
 ---
 
-🧾 'targets.csv' Schema (what I fill)
+## 📄 `targets.csv` Schema (what I fill)
+
+```csv
 iso3,country,target_year,target_abs_excl_lulucf_mtco2e,target_type,base_year,reduction_pct,source
-USA,United States,2030,,% below base year,2005,51,<link to source>
+USA,United States,2030,,% below base year,2005,51,<link>
 GBR,United Kingdom,2030,,% below base year,1990,68,<link>
 EU27,European Union (27),2030,,% below base year,1990,55,<link>
 JPN,Japan,2030,,% below base year,2013,46,<link>
 CAN,Canada,2030,,% below base year,2005,40,<link>
-
 
 If I can find a direct absolute 2030 target (excl. LULUCF), I put that in target_abs_excl_lulucf_mtco2e and leave %/base_year blank.
 
