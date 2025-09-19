@@ -40,7 +40,7 @@ Part 2 (coming later) will expand into **climate finance vs emissions** to ask: 
 ---
 
 ## 🗂️ Structure
-
+```
 paris-agreement-part1/
 ├─ raw_data/ # raw downloads (kept as-is)
 │ ├─ CW_HistoricalEmissions_ClimateWatch.csv
@@ -58,7 +58,7 @@ paris-agreement-part1/
 ├─ scripts/
 │ └─ make_charts.R # run me
 └─ Paris_Agreement_Part_1.Rproj
-
+```
 ---
 
 ## 📄 `targets.csv` Schema (what I fill)
@@ -70,35 +70,30 @@ GBR,United Kingdom,2030,,% below base year,1990,68,<link>
 EU27,European Union (27),2030,,% below base year,1990,55,<link>
 JPN,Japan,2030,,% below base year,2013,46,<link>
 CAN,Canada,2030,,% below base year,2005,40,<link>
-
+```
 If I can find a direct absolute 2030 target (excl. LULUCF), I put that in target_abs_excl_lulucf_mtco2e and leave %/base_year blank.
 
 Otherwise, I use “% below base year” + the base year, and the script computes the absolute 2030 target.
 
+
 ---
 
-🧠 Method (plain English)
+## 🧠 Method (plain English)
 
 Use GHG totals excluding LULUCF (for comparability).
-
 Observed rate: How fast emissions have fallen since 2015 (compounded annual rate, optional 3-year smoothing around 2015).
-
 Required rate: How fast they must fall from 2015 → 2030 to hit the target.
-
 On track if observed ≤ required (i.e., cutting fast enough).
 
 Bonus metric: Projected 2030 if the observed trend continues, then compare to the target (→ bar chart).
 
 ---
 
-⚠️ Caveats (being transparent)
+## ⚠️ Caveats (being transparent)
 
 Target scopes differ (some include LULUCF or exclude sectors). I try to use economy-wide excl. LULUCF where possible and clearly note sources.
-
 COVID & shocks: 2015 baseline can be noisy; I optionally smooth with a 3-year average.
-
 Different datasets (UNFCCC, PRIMAP, GCP) vary slightly. For v1 I default to Climate Watch and document deviations.
-
 Intensity/BAU/peaking targets aren’t handled yet (future work).
 
 ---
@@ -111,7 +106,7 @@ Intensity/BAU/peaking targets aren’t handled yet (future work).
 
 ---
 
-📝 Citation
+## 📝 Citation
 
 Please cite the original data providers:
 Climate Watch (WRI). Historical GHG Emissions. Accessed: Month Year.
@@ -122,7 +117,7 @@ I’ll list per-country URLs in targets.csv and link them in the final write-up.
 
 ---
 
-🔐 License & Use
+## 🔐 License & Use
 
 Code: MIT License (TBD)
 Data: Respect original providers’ terms. Climate Watch data are open with attribution; UNFCCC/CAT terms apply to their content and figures.
