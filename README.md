@@ -1,6 +1,5 @@
 # Paris Agreement – Emissions vs Targets (Part 1: 2015–2024)
 
-![Status](https://img.shields.io/badge/status-in--progress-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
 
