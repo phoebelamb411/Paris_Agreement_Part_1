@@ -20,7 +20,7 @@ The aim is to show, in data and visuals, who is:
 - ⚠️ Lagging (falling short of commitments)  
 - ❌ Off course (emissions rising despite pledges)  
 
-![On track bar](output/figures/ontrack_bar.png)  
+![On track bar](assets/readme_figures/ontrack_bar.png)  
 *Projected 2030 emissions vs pledged targets (negative = better than target)*  
 
 Part 2 (coming later) will expand into **climate finance vs emissions** to ask: *“Who is funding climate action, and who is emitting the most?”*
@@ -179,10 +179,10 @@ Some (EU, UK) are close but still not sufficient.
 USA, Japan, and Canada show larger positive gaps, meaning their observed decline rates are not yet fast enough.  
 
 
-![USA line](output/figures/country_lines/USA_line.png)  
+![USA line](assets/readme_figures/USA_line.png)
 *United States: Actual emissions vs 2030 target pathway*
 
-![EU line](output/figures/country_lines/EU27_line.png)  
+![EU line](assets/readme_figures/EU27_line.png)
 *European Union (27): Actual emissions vs 2030 target pathway*
 
 ---
