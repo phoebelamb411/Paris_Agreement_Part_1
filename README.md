@@ -27,6 +27,7 @@ It’s both a technical exercise in tidyverse workflows and a policy-relevant an
 
 *(Values illustrative — table auto-updates from `summary_ontrack.csv` if you refresh and re-paste the numbers.)*
 
+---
 
 ![On/off track bar chart](output/figures/ontrack_bar.png)
 *Projected 2030 emissions vs pledged targets (negative = better than target)*  
