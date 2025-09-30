@@ -16,4 +16,14 @@ raw_data/
 *.xlsx
 
 # Output files (can always regenerate)
-output/
+# Ignore everything in output except figures
+output/*
+!output/figures/
+!output/figures/**/*.png
+
+assets/
+ └─ figures_for_readme/
+     ├─ ontrack_bar.png
+     ├─ USA_line.png
+     ├─ EU27_line.png
+
