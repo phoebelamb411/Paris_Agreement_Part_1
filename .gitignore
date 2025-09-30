@@ -1,0 +1,19 @@
+# RStudio/R temporary stuff
+.Rhistory
+.Rproj.user
+.RData
+.Ruserdata
+
+# Local config
+.Renviron
+
+# renv (local R package library)
+renv/library/
+
+# Data that shouldn't go to GitHub (big or private)
+raw_data/
+*.csv
+*.xlsx
+
+# Output files (can always regenerate)
+output/
