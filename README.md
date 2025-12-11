@@ -332,17 +332,6 @@ Targets mean nothing without:
 
 ---
 
-## 🗺️ Future Enhancements
-
-### **Planned for v2.0**
-- [ ] Add more countries (China, India, Brazil, Australia, etc.)
-- [ ] Per capita analysis
-- [ ] Sectoral breakdowns (energy, transport, industry)
-- [ ] Cumulative historical emissions
-- [ ] Include updated 2025 data when available
-- [ ] Interactive Shiny dashboard
-- [ ] Scenario modeling (what if policies X, Y, Z?)
-
 ### **Ideas Welcome!**
 Open an issue to suggest improvements or contribute!
 
