@@ -419,8 +419,6 @@ Open an issue or reach out on [LinkedIn](https://www.linkedin.com/in/phoebelamb)
 **This project is part of a climate policy analysis series:**
 - **Part 1**: Emissions vs Paris Agreement Targets (this repo) ✅
 - **Part 2**: [Climate Finance vs Emissions](https://github.com/phoebelamb411/Paris_Agreement_Part_2) ✅  
-- **Part 3**: Coming soon – Climate finance effectiveness
-
 ---
 
 *"You cannot manage what you do not measure. This analysis measures the gap between climate promises and climate reality."* 🌍
